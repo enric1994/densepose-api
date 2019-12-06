@@ -30,7 +30,7 @@ This will send `demo_im.jpg` to the API using the Python requests package.
 
 Feel free to modify the script and add it to your pipeline
 
-Tested on Ubuntu 18.04 with a GTX 1060 GPU
+Tested on Ubuntu 18.04 with a GTX 1060 GPU (drivers 410.104)
 
 ## Advantages
 * You don't have to install Caffe
