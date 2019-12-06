@@ -1,0 +1,18 @@
+version: '2.3'
+
+services:
+
+  densepose-api:
+    image: densepose-api
+    container_name: densepose-api
+    working_dir: /densepose
+    build:
+      context: ../
+      dockerfile: docker/Dockerfile
+    ports:
+      - "5000:5000"
+    volumes:
+      - ../:/densepose-api
+    restart: always
+    runtime: nvidia
+    command: python /densepose-api/api.py
