@@ -1,5 +1,5 @@
 # DensePose API Docker
-GPU powered Docker API that recieves an image and returns the DensePose UVmask:
+GPU powered Docker API that recieves an image and returns the DensePose (old Detectron version) UVmask:
 
 ### Input
 <img src="https://raw.githubusercontent.com/facebookresearch/DensePose/master/DensePoseData/demo_data/demo_im.jpg" width="40%">
